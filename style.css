@@ -1,0 +1,78 @@
+ /*REGOLE GENERALI  */
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Orbitron', sans-serif;
+}
+p{
+    font-family: 'Jura', sans-serif;
+}
+
+:root{
+    --lightblue: #2B9DF4;
+}
+.lightblue{
+    color: var(--lightblue);
+}
+body{
+    background-color: black;
+}
+
+/* IMMAGINE HEADER (LUNA) */
+.img-custom{
+    background-image:linear-gradient(rgba(0, 0, 0, 1.3),rgba(0, 0, 0, 0.7)), url(./media/moon.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position:center;  
+}
+
+.h1-custom{
+    font-size: 75px;
+}
+
+.i-custom{
+    color: var(--lightblue);
+    font-size: 30px;
+}
+
+/* Sezione Card */
+
+.card-custom{
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid var(--lightblue);
+}
+
+/* immagine main */
+
+.img-custom-main{
+    background-image: url(./media/moon2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+
+}
+
+/* immagine razzo */
+
+.img-razzo{
+
+background-image:  url(./media/missile-2027068_1280.png);
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+height: 70vh;
+}
+
+
+/* IMG FOOTER */
+
+.footer-custom{
+
+    background: linear-gradient(rgba(0, 0, 0, 0.533),rgb(0, 0, 0)), url(./media/sunrise-1765027_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    
+}
